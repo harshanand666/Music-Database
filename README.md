@@ -36,10 +36,10 @@ average duration and number of streams
 11. List the 5 youngest artists with greater than 15 songs and greater than 2 albums
 
 ## ER Diagram
-![ER Diagram](http://url/to/img.png)
+![ER Diagram](https://github.com/harshanand666/Music-Database/blob/main/ER_Diagram.png)
 
 ## Relational Schema
-![Relational Schema](http://url/to/img.png)
+![Relational Schema](https://github.com/harshanand666/Music-Database/blob/main/Relational_Schema.png)
 
 ## Data
 The following dataset from Kaggle was used to get the majority of the attributes:
@@ -61,6 +61,6 @@ Randomly generated attributes:
 
 # Usage
 - A MySQL server is required to run the code. Both the insertion script as well as the app.py script require setting the correct config (username and password) before running them to ensure all commands are executed correctly.
-- The [create_tables.sql](link) file contains the SQL commands to create the necessary tables.
-- The [insert_data.py](link) script reads in the dataset (named as data.csv in the same folder), generates the required random attributes, and inserts all the records into the corresponding tables. This needs to be run once.
-- The [app.py](link) script runs the Dash app and allows the user to execute the abovementioned queries.
+- The [create_tables.sql](https://github.com/harshanand666/Music-Database/blob/main/create_tables.sql) file contains the SQL commands to create the necessary tables.
+- The [insert_data.py](https://github.com/harshanand666/Music-Database/blob/main/insert_data.py) script reads in the dataset (named as data.csv in the same folder), generates the required random attributes, and inserts all the records into the corresponding tables. This needs to be run once.
+- The [app.py](https://github.com/harshanand666/Music-Database/blob/main/app.py) script runs the Dash app and allows the user to execute the abovementioned queries.
